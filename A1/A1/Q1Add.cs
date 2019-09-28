@@ -16,7 +16,8 @@ namespace A1
 
         public virtual long Solve(long a, long b)
         {
-            return a + b;
+            return
+                a + b;
         }
     }
 }
