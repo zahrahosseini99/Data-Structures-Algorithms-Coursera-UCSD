@@ -18,11 +18,11 @@ namespace A3
         }
         public long Solve(long a, long b)
         {
-            if (a > b && a%b==0)
+            if (a > b && a % b == 0)
             {
                 return a;
             }
-            else if(b>a && b%a==0)
+            else if (b > a && b % a == 0)
             {
                 return b;
             }
@@ -31,7 +31,7 @@ namespace A3
                 return a * b;
             }
             else
-                return a*b / GCD(a, b);
+                return a * b / GCD(a, b);
         }
     }
 }

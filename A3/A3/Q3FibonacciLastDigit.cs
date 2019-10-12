@@ -9,9 +9,9 @@ namespace A3
 
         public override string Process(string inStr) =>
             TestTools.Process(inStr, (Func<long, long>)Solve);
-        
-       
-      
+
+
+
         public long Solve(long n)
         {
             if (n <= 1)
@@ -22,9 +22,9 @@ namespace A3
 
             for (int i = 2; i < n; i++)
             {
-                fib[i] = fib[i - 1]%10 + fib[i - 2]%10;
+                fib[i] = fib[i - 1] % 10 + fib[i - 2] % 10;
             }
-            return fib[n - 1]%10;
+            return fib[n - 1] % 10;
         }
     }
 

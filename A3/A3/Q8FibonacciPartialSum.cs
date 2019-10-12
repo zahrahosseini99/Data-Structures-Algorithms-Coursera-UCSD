@@ -24,7 +24,7 @@ namespace A3
         }
         public long Solve(long a, long b)
         {
-            if (a <b)
+            if (a < b)
                 (a, b) = (b, a);
             int c = (int)(a % 60);
             int d = (int)(b % 60);
@@ -35,11 +35,8 @@ namespace A3
             {
                 for (int i = d; i <= c; i++)
                 {
-                   // Console.WriteLine("Hellllloooooooo");
                     sum += mods[i];
                 }
-               
-
             }
             else
             {

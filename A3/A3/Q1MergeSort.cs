@@ -37,19 +37,19 @@ namespace A3
 
             long left = low;
             long right = mid + 1;
-            long[] arr = new long[(high - low) + 1];
+            long[] merge = new long[(high - low) + 1];
             long index = 0;
 
             while ((left <= mid) && (right <= high))
             {
                 if (array[left] < array[right])
                 {
-                    arr[index] = array[left];
+                    merge[index] = array[left];
                     left = left + 1;
                 }
                 else
                 {
-                    arr[index] = array[right];
+                    merge[index] = array[right];
                     right = right + 1;
                 }
                 index = index + 1;
@@ -59,7 +59,7 @@ namespace A3
             {
                 while (left <= mid)
                 {
-                    arr[index] = array[left];
+                    merge[index] = array[left];
                     left = left + 1;
                     index = index + 1;
                 }
@@ -69,15 +69,15 @@ namespace A3
             {
                 while (right <= high)
                 {
-                    arr[index] = array[right];
+                    merge[index] = array[right];
                     right = right + 1;
                     index = index + 1;
                 }
             }
 
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < merge.Length; i++)
             {
-                array[low + i] = arr[i];
+                array[low + i] = merge[i];
             }
 
         }

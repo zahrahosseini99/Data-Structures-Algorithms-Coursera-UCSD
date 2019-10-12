@@ -28,14 +28,14 @@ namespace A3
 
             List<long> mods = GetMod(n, 10);
             long sum = 0;
-            for(int i = 0; i <=n%60; i++)
+            for (int i = 0; i <= n % 60; i++)
             {
                 sum += mods[i];
             }
-           return sum  % 10;
+            return sum % 10;
 
         }
 
-     
+
     }
 }
