@@ -16,7 +16,7 @@ namespace E1a.Tests
         [TestMethod(), Timeout(1000)]
         public void SolveTest_Q2UnitFractions()
         {
-          Assert.Inconclusive();
+            Assert.Inconclusive();
             RunTest(new Q2UnitFractions("TD2"));
         }
 
