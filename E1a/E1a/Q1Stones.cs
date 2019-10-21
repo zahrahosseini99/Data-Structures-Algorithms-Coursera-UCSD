@@ -14,7 +14,18 @@ namespace E1a
 
         public virtual long Solve(long n, long[] stones)
         {
-            throw new NotImplementedException();
+            long sum = 0;
+            int i = 0;
+            while (i<stones.Length)
+            {
+                sum+=stones[i];
+                if (sum >= n)
+                    break;
+                i++;
+            }
+            if (n > sum)
+                return 0;
+            return i+1;
         }
     }
 }

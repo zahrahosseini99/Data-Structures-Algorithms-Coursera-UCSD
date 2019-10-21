@@ -15,7 +15,22 @@ namespace E1a
 
         public virtual long Solve(long nr, long dr)
         {
-            throw new NotImplementedException();
+            double kasr = (double)nr / (double)dr;
+            double sum = 0;
+            long i = 1;
+            if (nr % dr == 0)
+                return 1;
+            while (sum<kasr)
+            {
+                double k = (double)((double)1 / (double)i);
+                if(!(k> (double)(kasr-sum)))
+                sum += (double)((double)1 / (double)i);
+                if (sum == kasr)
+                    break;
+                i++;
+            }
+            return i;
         }
+       
     }
 }
