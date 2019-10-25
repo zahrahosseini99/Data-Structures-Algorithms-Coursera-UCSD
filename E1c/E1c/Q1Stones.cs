@@ -11,22 +11,7 @@ namespace E1c
         public override string Process(string inStr) =>
             TestTools.Process(inStr, (Func<long, long[], long>)Solve);
 
-        //public virtual long Solve(long n, long[] stones)
-        //{
-
-        //    int i = 0;
-        //    long sum = 0;
-        //    for (i = 0; i < stones.Length; i++)
-        //    {
-
-        //        sum+= stones[i];
-        //        if (sum >= n)
-        //       break;
-        //    }
-        //    if (n > sum)
-        //        return 0;
-        //    return i + 1;
-        //}
+       
         public virtual long Solve(long n, long[] stones)
         {
             long sum = 0;
