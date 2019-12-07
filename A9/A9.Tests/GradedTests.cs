@@ -19,7 +19,7 @@ namespace A9.Tests
             RunTest(new Q2MergingTables("TD2"));
         }
 
-        [TestMethod(), Timeout(1500)]
+        [TestMethod()/*, Timeout(1500)*/]
         public void SolveTest_Q3Froggie()
         {
             Assert.Inconclusive();

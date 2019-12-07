@@ -16,10 +16,32 @@ namespace A9
 
         public long Solve(long initialDistance, long initialEnergy, long[] distance, long[] food)
         {
-            throw new NotImplementedException();
-            SimplePriorityQueue<long,long> b = new SimplePriorityQueue<long,long>();
-            
-            
+            //throw new NotImplementedException();
+            SimplePriorityQueue<long, long> jumps = new SimplePriorityQueue<long, long>();
+            long energy = initialEnergy;
+            long prev = 0;
+            long counter = 0;
+            while (energy<initialDistance)
+            {
+                for (int i = 0; i < distance.Length; i++)
+                {
+                    if (distance[i]<=energy && distance[i]>prev)
+                    {
+                        jumps.Enqueue(-1 * food[i], -1 * food[i]);
+                    }
+                }
+                if (jumps.Any())
+                {
+                    prev = energy;
+                    energy += -1 * jumps.Dequeue();
+                    counter++;
+                }
+                else
+                {
+                    return -1;
+                }
+            }
+            return counter;
         }
     }
 }
