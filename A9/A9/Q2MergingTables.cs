@@ -11,7 +11,7 @@ namespace A9
         public long[] parent;
 
         public long[] tsize;
-        int n;
+        //int n;
         public Tables(long[] t, long[] p,long n)
         {
             rank = new long[n];
