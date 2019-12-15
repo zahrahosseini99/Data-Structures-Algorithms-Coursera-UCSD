@@ -28,7 +28,7 @@ namespace A10
 
         public string[] Solve(string[] commands)
         {
-            PhoneBookList = new Dictionary<int, string>();
+            PhoneBookList = new Dictionary<int, string>(commands.Length / 2);
             List<string> result = new List<string>();
             foreach (var cmd in commands)
             {
@@ -54,12 +54,7 @@ namespace A10
 
         public void Add(string name, int number)
         {
-
-            if (!PhoneBookList.ContainsKey(number))
-                PhoneBookList.Add(number, name);
-            else
-                PhoneBookList[number] = name;
-            return;
+            PhoneBookList[number] = name;
         }
 
         public string Find(int number)
