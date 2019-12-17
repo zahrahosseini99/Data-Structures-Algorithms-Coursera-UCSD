@@ -13,12 +13,12 @@ namespace A10.Tests
         [TestMethod()]
         public void BloomFilterTest()
         {
-            Assert.Inconclusive("Not Implemented");
+           // Assert.Inconclusive("Not Implemented");
             // تعداد پسوردها - ثابت. عوض نکنید.
             int pwdCount = 1_000_000;
 
             // اندازه مناسب را خودتون انتخاب کنید
-            int filterSize =(int)(5.6 * pwdCount);
+            int filterSize =(int)(5.1 * pwdCount);
 
             // تعداد توابع را هم خودتان تنظیم کنید
             int hashFnCount = 4;
