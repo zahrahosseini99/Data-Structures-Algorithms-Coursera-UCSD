@@ -22,7 +22,7 @@ namespace A9.Tests
         [TestMethod()/*, Timeout(1500)*/]
         public void SolveTest_Q3Froggie()
         {
-            Assert.Inconclusive();
+          Assert.Inconclusive();
             RunTest(new Q3Froggie("TD3"));
         }
 

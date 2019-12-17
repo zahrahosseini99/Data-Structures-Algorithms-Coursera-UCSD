@@ -25,7 +25,7 @@ namespace A9
             {
                 for (int i = 0; i < distance.Length; i++)
                 {
-                    if (distance[i]<=energy && distance[i]>prev)
+                    if ((initialDistance-distance[i])<=energy && (initialDistance-distance[i])>prev)
                     {
                         jumps.Enqueue(-1 * food[i], -1 * food[i]);
                     }
