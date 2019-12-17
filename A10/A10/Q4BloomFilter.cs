@@ -19,7 +19,7 @@ namespace A10
             HashFunctions[0] = Hash1;
             HashFunctions[1] = Hash2;
             HashFunctions[2] = Hash3;
-            HashFunctions[3] = Hash4;
+            HashFunctions[3] = Hash3;
         }
 
 
@@ -44,7 +44,7 @@ namespace A10
             }
             return true;
         }
-        public int Hash1(string str)
+        public int Hash0(string str)
         {
             int hash = 7;
             for (int i = 0; i < str.Length; i++)
@@ -53,7 +53,7 @@ namespace A10
             }
             return (hash % Filter.Length + Filter.Length) % Filter.Length;
         }
-        public int Hash2(string str)
+        public int Hash1(string str)
         {
             int hash = 0;
             char c;
@@ -65,7 +65,7 @@ namespace A10
             }
             return hash;
         }
-        public int Hash3(string str)
+        public int Hash2(string str)
         {
             int hash = 11;
             for (int i = 0; i < str.Length; i++)
@@ -74,7 +74,7 @@ namespace A10
             }
             return (hash % Filter.Length + Filter.Length) % Filter.Length;
         }
-        public int Hash4(string str)
+        public int Hash3(string str)
         {
             int hash = 0;
             char c;
