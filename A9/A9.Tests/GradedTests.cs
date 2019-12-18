@@ -13,7 +13,7 @@ namespace A9.Tests
             RunTest(new Q1ConvertIntoHeap("TD1"));
         }
 
-        [TestMethod(), Timeout(2000)]
+        [TestMethod(), Timeout(3000)]
         public void SolveTest_Q2MergingTables()
         {
             RunTest(new Q2MergingTables("TD2"));
