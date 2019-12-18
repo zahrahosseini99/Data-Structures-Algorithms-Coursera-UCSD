@@ -7,13 +7,13 @@ namespace A9.Tests
     [TestClass()]
     public class GradedTests
     {
-        [TestMethod(), Timeout(1500)]
+        [TestMethod(), Timeout(2000)]
         public void SolveTest_Q1ConvertIntoHeap()
         {
             RunTest(new Q1ConvertIntoHeap("TD1"));
         }
 
-        [TestMethod(), Timeout(2000)]
+        [TestMethod(), Timeout(3000)]
         public void SolveTest_Q2MergingTables()
         {
             RunTest(new Q2MergingTables("TD2"));
