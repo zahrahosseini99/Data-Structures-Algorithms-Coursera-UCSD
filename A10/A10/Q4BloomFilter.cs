@@ -18,8 +18,8 @@ namespace A10
             HashFunctions = new Func<string, int>[hashFnCount];
             HashFunctions[0] = Hash1;
             HashFunctions[1] = Hash2;
-            HashFunctions[2] = Hash3;
-            HashFunctions[3] = Hash3;
+            HashFunctions[2] = Hash;
+            HashFunctions[3] = Hash;
         }
 
 
@@ -74,7 +74,7 @@ namespace A10
             }
             return (hash % Filter.Length + Filter.Length) % Filter.Length;
         }
-        public int Hash3(string str)
+        public int Hash(string str)
         {
             int hash = 0;
             char c;
