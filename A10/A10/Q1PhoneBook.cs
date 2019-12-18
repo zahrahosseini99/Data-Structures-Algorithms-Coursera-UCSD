@@ -58,13 +58,12 @@ namespace A10
         }
 
         public string Find(int number)
-        {                    
+        {
             if (PhoneBookList.ContainsKey(number))
                 return PhoneBookList[number];
             else
                 return "not found";
         }
-
         public void Delete(int number)
         {
             PhoneBookList.Remove(number);
