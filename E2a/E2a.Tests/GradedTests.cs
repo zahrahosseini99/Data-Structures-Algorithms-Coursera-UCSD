@@ -17,7 +17,7 @@ namespace E2a.Tests
         }
 
 
-        [TestMethod(), Timeout(1700)]
+        [TestMethod(), Timeout(1900)]
         public void SolveTest_Q2ThreeChildrenMinHeap()
         {
             //Assert.Inconclusive();
