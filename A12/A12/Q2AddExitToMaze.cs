@@ -8,7 +8,7 @@ namespace A12
 {
     public class Q2AddExitToMaze : Processor
     {
-        public Q2AddExitToMaze(string testDataName) : base(testDataName) { /*this.ExcludeTestCaseRangeInclusive(44, 50);*/ }
+        public Q2AddExitToMaze(string testDataName) : base(testDataName) { }
 
         public override string Process(string inStr) =>
             TestTools.Process(inStr, (Func<long, long[][], long>)Solve);
@@ -23,7 +23,7 @@ namespace A12
             for (int i = 0; i < nodeCount; i++)
                 visited[i] = false;
             DFS(g);
-            return cc - 1;
+            return cc;
         }
         public void Explore(long v, List<long>[] g)
         {
@@ -57,7 +57,7 @@ namespace A12
         }
         public void DFS(List<long>[] g)
         {
-            cc = 1;
+            cc = 0;
             for (int i = 0; i < g.Length; i++)
             {
                 if (!visited[i])

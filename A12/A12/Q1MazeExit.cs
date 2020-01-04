@@ -6,7 +6,7 @@ namespace A12
 {
     public class Q1MazeExit : Processor
     {
-        public Q1MazeExit(string testDataName) : base(testDataName) {/* this.ExcludeTestCaseRangeInclusive(2, 50);*/ }
+        public Q1MazeExit(string testDataName) : base(testDataName) {}
 
         public override string Process(string inStr) =>
             TestTools.Process(inStr, (Func<long, long[][], long, long, long>)Solve);
@@ -17,8 +17,7 @@ namespace A12
             if (a.Contains(EndNode))
                 return 1;
             else
-                return
-                    0;
+                return 0;
         }
         public List<long>[] graph(long count, long[][] nodes)
         {

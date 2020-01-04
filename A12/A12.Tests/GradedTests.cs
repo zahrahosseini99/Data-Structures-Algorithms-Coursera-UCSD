@@ -28,14 +28,14 @@ namespace A12.Tests
         [TestMethod(), Timeout(10000)]
         public void SolveTest_Q4OrderOfCourse()
         {
-            Assert.Inconclusive();
+          
             RunTest(new Q4OrderOfCourse("TD4"));
         }
 
         [TestMethod(), Timeout(500)]
         public void SolveTest_Q5StronglyConnected()
         {
-            Assert.Inconclusive();
+        
             RunTest(new Q5StronglyConnected("TD5"));
         }
 

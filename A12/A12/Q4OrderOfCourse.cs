@@ -9,7 +9,7 @@ namespace A12
 {
     public class Q4OrderOfCourse: Processor
     {
-        public Q4OrderOfCourse(string testDataName) : base(testDataName) { this.ExcludeTestCaseRangeInclusive(10,50); }
+        public Q4OrderOfCourse(string testDataName) : base(testDataName) { }
 
         public override string Process(string inStr) =>
             TestTools.Process(inStr, (Func<long, long[][], long[]>)Solve);
@@ -57,13 +57,13 @@ namespace A12
 
         }
       
-        private void topplogical(int v, bool[] visited, Stack<long> top, List<long>[] g)
+        private void topplogical(long v, bool[] visited, Stack<long> top, List<long>[] g)
         {
             visited[v-1] = true;
             for (int j = 0; j < g[v-1].Count; j++)
             {
-                if (!visited[j])
-                    topplogical(j+1, visited, top, g);
+                if (!visited[g[v-1][j]-1])
+                    topplogical(g[v - 1][j], visited, top, g);
             }
             top.Push(v);
         }
