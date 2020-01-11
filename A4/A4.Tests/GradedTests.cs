@@ -25,7 +25,7 @@ namespace A4.Tests
             RunTest(new Q3MaximizingOnlineAdRevenue("TD3"));
         }
 
-        [TestMethod()]
+        [TestMethod(), Timeout(200)]
         public void SolveTest_Q4CollectingSignatures()
         {
             RunTest(new Q4CollectingSignatures("TD4"));
@@ -37,7 +37,7 @@ namespace A4.Tests
             RunTest(new Q5MaximizeNumberOfPrizePlaces("TD5"));
         }
 
-        [TestMethod()]
+        [TestMethod(), Timeout(200)]
         public void SolveTest_Q6MaximizeSalary()
         {
             RunTest(new Q6MaximizeSalary("TD6"));

@@ -8,7 +8,7 @@ namespace A7.Tests
     public class GradedTests
     {
 
-        [TestMethod()/*, Timeout(300)*/]
+        [TestMethod(), Timeout(300)]
         public void SolveTest_Q1MaximumGold()
         {
             RunTest(new Q1MaximumGold("TD1"));
@@ -30,6 +30,6 @@ namespace A7.Tests
         public static void RunTest(Processor p)
         {
             TestTools.RunLocalTest("A7", p.Process, p.TestDataName, p.Verifier);
-        }               
+        }
     }
 }

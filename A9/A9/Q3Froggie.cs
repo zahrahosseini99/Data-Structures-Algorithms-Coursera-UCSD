@@ -9,7 +9,7 @@ namespace A9
     public class Q3Froggie : Processor
     {
         public Q3Froggie(string testDataName) : base(testDataName)
-        { }
+        {/* this.ExcludeTestCaseRangeInclusive(8, 80);*/ }
 
         public override string Process(string inStr) =>
             TestTools.Process(inStr, (Func<long, long, long[], long[], long>)Solve);
