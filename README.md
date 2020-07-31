@@ -30,6 +30,6 @@ Instractor: [Sauleh Eetemadi](http://sauleh.github.io/)
   + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD/blob/master/A10/A10)
 ## HW11 (Binary Search trees)
   + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD/blob/master/fb_A11/A11)
-## HW12 (State pattern) 
+## HW12 (Graph basics) 
   + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD/blob/master/fb_A12/A12)
 
