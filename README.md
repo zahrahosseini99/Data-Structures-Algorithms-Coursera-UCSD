@@ -1,20 +1,48 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This repository contains my programming assignments for Data Structure course in Iran University of Technology (IUST)
+which is based on UCSD's data structures and algorithms specialization on coursera.
+Course can be found in [Coursera](https://www.coursera.org/specializations/data-structures-algorithms#courses)
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Instractor: [Sauleh Eetemadi](http://sauleh.github.io/)
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+[Cousre Website](http://sauleh.github.io/ds98)
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+# Assignments
+## HW1 (Hello World)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A1/Assignment1.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A1)
+## HW2 (Programming Challenges )
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A2/week1_programming_challenges.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A2/A2)
+## HW3 (Algorithmic_warmup)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A3/week2_algorithmic_warmup.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A3/A3)
+## HW4 (Greedy algorithms)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A4/week3_greedy_algorithms.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A4/A4)
+## HW5 (Divide and conquer)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A5/week4_divide_and_conquer.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A5/A5)
+## HW6 ( Dynamic programming 1)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A6/week5_dynamic_programming1.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A6/A6)
+## HW7 ( Dynamic programming 2)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A7/week6_dynamic_programming2.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A7/A7)
+## HW8 (Basic data structures)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/fb_A8/Programming_Assignment_1.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/fb_A8/A8)
+## HW9 ( Priority queues and Disjoint sets)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/fb_A9/Programming_Assignment_2.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/fb_A8/A9)
+## HW10 ( Hash tables)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A10/Programming_Assignment_3.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/A10/A10)
+## HW11 (Binary Search trees)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/fb_A11/week4_binary_search_trees.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/fb_A11/A11)
+## HW12 (State pattern)
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/fb_A12/week1_graph_decomposition1.pdf)  
+  + [Document](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/fb_A12/week2_graph_decomposition2.pdf)
+  + [Solution](https://github.com/zahrahosseini99/Data-Structures-Algorithms-Coursera-UCSD-HSE/blob/master/fb_A12/A12)
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
